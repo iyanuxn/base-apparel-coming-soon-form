@@ -172,9 +172,9 @@ body {
 		display: block;
 		background-image: url(images/hero-desktop.jpg);
 		width: 80vw;
-		height: auto;
+		height: 100vh;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: 40vw;
 		margin-left: 10vw;
 	}
 
