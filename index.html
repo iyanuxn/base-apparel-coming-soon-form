@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>coming-soon</title>
+</head>
+<body>
+	<div class="pattern">
+		<div class="main">
+		<div class="logo">
+			<img src="images/logo.svg">
+		</div>
+		<div class="hero-1"></div>
+		<div class="subscribe">
+			<div class="title">
+				<span class="we">WE'RE</span>
+				<span class="coming">COMING <br> SOON</span>
+			</div>
+			<span class="text">Hello fellow shoppers! We're currently building our new fashion store. 
+								Add your email below to stay up-to-date with announcements and our launch deals.
+			</span>
+	        <form name="form1" action="#" class="subscribe-area">
+	        	<div>
+	        	<input autocomplete="off" type="email" name="text1" id="myInput" placeholder="Email Address" required class="mail" autofocus>
+	        	<p class="errortext">Please provide a valid email address</p>
+	      		</div>
+	      		<button type="submit" name="validate" onclick="ValidateEmail(document.form1.text1)" value="" class="notify">
+	      			<img src="images/icon-arrow.svg">
+	      		</button>
+	      	</form>
+		</div>
+	</div>
+	<div class="hero-2"></div>
+</div>
+</body>
+<script type="text/javascript" src="app.js"></script>
+</html>
